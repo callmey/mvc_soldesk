@@ -1,0 +1,42 @@
++ LayOut  备己
++ Product 其捞瘤 备己
+--------------------------------------------------
+product
+
+pno(pk)  pname  price  dcratio prodesc  qty  imgfile  bigimgfile
+
+SQL> CREATE TABLE PRODUCT
+(PNO NUMBER(10) CONSTRAINT PRODUCT_PNO_PK PRIMARY KEY,
+PNAME VARCHAR2(20),
+PRICE NUMBER(10),
+DCRATIO NUMBER(3),
+PRODESC VARCHAR2(2000),
+QTY NUMBER(4),
+IMGFILE VARCHAR2(100),
+BIGIMGFILE VARCHAR2(200));
+
+SQL>CREATE SEQUENCE PRODUCT_PNO_SEQ
+START WITH 1
+INCREMENT BY 1
+MINVALUE 1
+NOCACHE
+;
+
+
++ ProductVO, ProductDAO => ProductMain 立加 犬牢
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
